@@ -532,6 +532,8 @@ int main(int argc, char* argv[])
                 timer = 0;
                 playerScore = 0;
                 pauseShapeCreation = false;
+                currentDifficulty = STARTING_DIFFICULTY;
+                currentWallSpeed = INITIAL_WALL_SPEED;
                 world = 0;
                 glClearColor(worldSkyColours[0].x, worldSkyColours[0].y, worldSkyColours[0].z, worldSkyColours[0].a);
                 glClear(GL_COLOR_BUFFER_BIT);
